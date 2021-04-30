@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
+  }
  
  body{
     background-color: #fff;
@@ -30,7 +30,11 @@
     display: block;
 }
 
-p{
+.title{
+    margin: 18px auto;
+    
+}
+p, ul{
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -49,7 +53,18 @@ p{
     border-color: inherit;
 }
 
-.th{
- padding-bottom: 5px;
+.tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    padding: auto 5px;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+flash{
+    color: green;
 }
 
